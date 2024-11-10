@@ -1,0 +1,86 @@
+body {
+    font-family: vazir;
+    background: #E44D26;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    width: 100%;
+    max-width: 600px;
+    background-color: #0B192C;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.app h1 {
+    font-size: 30px;
+    color: #EEE;
+    padding: 0 0 10px 0;
+}
+
+hr {
+    color: #EEE;
+    opacity: 50%;
+}
+
+.quiz h2 {
+    font-size: 20px;
+    color: #EEE;
+    padding: 10px 0 20px;
+}
+
+.btn {
+    border: 0;
+    outline: none;
+    background-color: #EEE;
+    width: 100%;
+    border: 1px solid black;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 12px 0;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: all .5s;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.btn:hover:not([disabled]) {
+    background-color: #1E3E62;
+    color: #EEE;
+    border: 1px solid #EEE;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+#next-btn {
+    font-family: inherit;
+    color: black;
+    background-color: #EEE;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px 230px 10px 0;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all .5s;
+    display: none;
+}
+
+#next-btn:hover {
+    background-color: #1E3E62;
+    color: #EEE;
+    border: 1px solid #EEE;
+}
+.correct {
+    background-color: #9aeabc;
+}
+.incorrect {
+    background-color: #ff9393;
+}
